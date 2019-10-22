@@ -1,0 +1,15 @@
+{
+  "name": "michael-king-portfolio",
+  "version": "1.0.0",
+  "description": "Michael King Software Developer Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael King",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}

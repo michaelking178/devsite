@@ -1,0 +1,192 @@
+/*---------------------------
+      GENERAL SETUP
+ --------------------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.section {
+  padding-top: 125px;
+  padding-bottom: 125px;
+  width: 100%;
+  height: auto;
+}
+
+.section-title {
+  margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #333;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+/*---------------------------
+        SPLASH PAGE
+...........................*/
+#splash {
+  width: 100%;
+  min-height: 33%;
+  overflow-x: hidden;
+  background-image: url("../img/headshot.jpg");
+  background-size: cover;
+}
+
+.splash-content {
+  justify-content: center;
+}
+
+#splash-text {
+  width: 100%;
+  margin-left: 25%;
+}
+
+#splash-text h1,
+#splash-text h2 {
+  color: #fff;
+}
+
+#splash-title {
+  margin-top: 20%;
+}
+
+#splash-arrow {
+  display: none;
+}
+
+#splash-arrow i {
+  color: #fff;
+  font-size: 3rem;
+  opacity: 0.5;
+  margin-top: 100%;
+  -webkit-transition: transform 0.5s, opacity 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+#splash-arrow i:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/*---------------------------
+        SKILLS PAGE
+...........................*/
+.skill-item {
+  margin-top: 25px;
+}
+
+.skill-item i {
+  font-size: 0.75rem;
+}
+
+.skill-item p {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+/*---------------------------
+        PROJECTS PAGE
+...........................*/
+#projects,
+#contact {
+  background-color: #eee;
+}
+
+.project-item {
+  background-color: #fff;
+  margin-bottom: 25px;
+  padding: 15px 30px;
+}
+
+.project-item h4 {
+  border-bottom: 1px solid #ccc;
+}
+
+.project-icon i {
+  font-size: 3rem;
+  color: #0055ff;
+  vertical-align: middle;
+}
+
+/*---------------------------
+        ABOUT PAGE
+...........................*/
+#about-content img {
+  width: 100%;
+  height: auto;
+}
+
+/*---------------------------
+        MEDIA QUERIES
+   --------------------------*/
+
+@media only screen and (min-width: 576px) {
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #splash {
+    height: 100%;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+
+  #splash-arrow {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 1920px) {
+}
