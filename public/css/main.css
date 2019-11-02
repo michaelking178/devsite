@@ -60,7 +60,7 @@ p {
   width: 100%;
   min-height: 33%;
   overflow-x: hidden;
-  background-image: url("../img/headshot.jpg");
+  background-image: url("../img/banner.jpg");
   background-size: cover;
 }
 
@@ -70,7 +70,7 @@ p {
 
 #splash-text {
   width: 100%;
-  margin-left: 25%;
+  margin-left: -25%;
 }
 
 #splash-text h1,
