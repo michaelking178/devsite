@@ -59,9 +59,12 @@ p {
 #splash {
   width: 100%;
   min-height: 33%;
+  top: 0;
+  right: 0;
   overflow-x: hidden;
   background-image: url("../img/banner.jpg");
   background-size: cover;
+  background-position: right 0px top 0px;
 }
 
 .splash-content {
@@ -198,7 +201,7 @@ p {
 
 @media only screen and (min-width: 576px) {
   #splash {
-    min-height: 100%;
+    min-height: 50%;
   }
 
   #about-text {
@@ -211,6 +214,9 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
+  #splash {
+    min-height: 50%;
+  }
   h1 {
     font-size: 3rem;
   }
@@ -232,10 +238,6 @@ p {
   }
   .section-title {
     margin-bottom: 50px;
-  }
-
-  #splash {
-    height: 100%;
   }
   h1 {
     font-size: 4rem;
@@ -259,6 +261,9 @@ p {
 }
 
 @media only screen and (min-width: 1200px) {
+  #splash {
+    min-height: 100%;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
