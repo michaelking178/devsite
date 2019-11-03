@@ -58,7 +58,7 @@ p {
 ...........................*/
 #splash {
   width: 100%;
-  min-height: 20%;
+  min-height: 33%;
   top: 0;
   right: 0;
   overflow-x: hidden;
@@ -200,10 +200,6 @@ p {
    --------------------------*/
 
 @media only screen and (min-width: 576px) {
-  #splash {
-    min-height: 33%;
-  }
-
   #about-text {
     margin-top: 0;
   }
