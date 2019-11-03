@@ -58,11 +58,11 @@ p {
 ...........................*/
 #splash {
   width: 100%;
-  min-height: 33%;
+  min-height: 20%;
   top: 0;
   right: 0;
   overflow-x: hidden;
-  background-image: url("../img/banner.jpg");
+  background-image: url("../img/banner_sm.jpg");
   background-size: cover;
   background-position: right 0px top 0px;
 }
@@ -201,7 +201,7 @@ p {
 
 @media only screen and (min-width: 576px) {
   #splash {
-    min-height: 50%;
+    min-height: 33%;
   }
 
   #about-text {
@@ -216,6 +216,7 @@ p {
 @media only screen and (min-width: 768px) {
   #splash {
     min-height: 50%;
+    background-image: url("../img/banner_md.jpg");
   }
   h1 {
     font-size: 3rem;
