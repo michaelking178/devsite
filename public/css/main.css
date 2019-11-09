@@ -160,6 +160,11 @@ p {
   height: auto;
 }
 
+#about-intro {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
 #about-text {
   margin-top: 20px;
 }
@@ -226,6 +231,10 @@ p {
   p {
     font-size: 1rem;
   }
+  #about-intro {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -247,6 +256,10 @@ p {
   }
   p {
     font-size: 1.2rem;
+  }
+  #about-intro {
+    font-size: 1.5rem;
+    margin-top: 0;
   }
 
   #splash-arrow {
