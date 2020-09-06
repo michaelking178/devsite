@@ -21,8 +21,17 @@
                 <h1 id="splash-title" class="animated fadeInUp delay-1s">Michael King</h1>
             </div>
             <div class="row splash-content">
-                <h2 id="splash-subtitle" class="animated fadeInUp delay-2s">software developer </h2>
+                <h2 id="splash-subtitle" class="animated fadeInUp delay-1s">software developer </h2>
             </div>
+            <div class="row splash-content">
+                <p id="splash-paragraph" class="animated fadeInUp delay-2s">Hi, I'm Michael, a software developer in Montreal, Canada. I love writing code for cross-platform applications, mobile, and video games.</p>
+            </div>
+            <div class="row splash-content">
+                <p id="splash-paragraph" class="animated fadeInUp delay-2s">Check out my skills and projects below!</p>
+            </div>
+        </div>
+        <div id="splash-image" class="animated fadeIn delay-1s">
+            <img src="img/BW Headshot.jpg">
         </div>
         <div id="splash-arrow" class="row justify-content-center">
             <div class="animated fadeIn delay-3s">
@@ -42,29 +51,11 @@
                 <div class="col-10 col-md-6">
                     <div class="skill-item">
                         <i class="fas fa-circle"></i>
-                        <p>Object Oriented Programming</p>
+                        <p>C#</p>
                     </div>
                     <div class="skill-item">
                         <i class="fas fa-circle"></i>
-                        <p>Design Patterns</p>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-circle"></i>
-                        <p>Git version control</p>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-circle"></i>
-                        <p>Agile development</p>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-circle"></i>
-                        <p>.NET Framework / Core</p>
-                    </div>
-                </div>
-                <div class="col-10 col-md-6 col-lg-3">
-                    <div class="skill-item">
-                        <i class="fas fa-circle"></i>
-                        <p>C# Programming</p>
+                        <p>C++</p>
                     </div>
                     <div class="skill-item">
                         <i class="fas fa-circle"></i>
@@ -72,11 +63,29 @@
                     </div>
                     <div class="skill-item">
                         <i class="fas fa-circle"></i>
-                        <p>MySQL / SQLite</p>
+                        <p>Object Oriented Programming</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-circle"></i>
+                        <p>Design Patterns</p>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 col-lg-3">
+                    <div class="skill-item">
+                        <i class="fas fa-circle"></i>
+                        <p>SQL</p>
                     </div>
                     <div class="skill-item">
                         <i class="fas fa-circle"></i>
                         <p>HTML / CSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-circle"></i>
+                        <p>Git version control</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-circle"></i>
+                        <p>.NET Framework / Core</p>
                     </div>
                 </div>
             </div>
@@ -93,45 +102,62 @@
             <div id="projects-list" class="row justify-content-center">
                 <div class="project-item col-10 col-md-12">
                     <div class="row">
-                        <div class="project-item-description col-12 col-md-11">
-                            <h3>Elder Scrolls Name Generator</h3>
-                            <p>Randomly generates a first and last name based on the race and gender selected. Inspired by the Elder Scrolls video games.</p>
+                        <div class="project-item-description col-12 col-md-11" id="AdventureGuild">
+                            <h3>Adventure Guild</h3>
+                            <p>A mobile idle-management game that puts the player in the position of guildmaster! Complete quests to gain resources, experience and renown... And watch your Adventure Guild grow!</p>
                         </div>
                         <div class="project-icon col-1 d-flex align-items-center">
-                            <i class="fab fa-github" title="GitHub"></i>
+                            <a href="https://github.com/michaelking178/AdventureGuild" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
+                        </div>
+                        <div class="project-image">
+                            <a href="img/AdventureGuild01.png" target="_blank"><img src="img/AdventureGuild01.png"></a>
+                            <a href="img/AdventureGuild02.png" target="_blank"><img src="img/AdventureGuild02.png"></a>
+                            <a href="img/AdventureGuild03.png" target="_blank"><img src="img/AdventureGuild03.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item col-10 col-md-12">
+                    <div class="row">
+                        <div class="project-item-description col-12 col-md-11" id="AdventurePlatformer">
+                            <h3>Adventure Platformer</h3>
+                            <p>In the genre of Ratchet & Clank and Jak & Daxter, Adventure Platformer is a classic third-person 3D adventure with custom-written camera and player controllers.</p>
+                        </div>
+                        <div class="project-icon col-1 d-flex align-items-center">
+                            <a href="https://github.com/michaelking178/AdventurePlatformer" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
+                        </div>
+                        <div class="project-image">
+                            <a href="img/AdventurePlatformer01.png" target="_blank"><img src="img/AdventurePlatformer01.png"></a>
+                            <a href="img/AdventurePlatformer02.png" target="_blank"><img src="img/AdventurePlatformer02.png"></a>
                         </div>
                     </div>
                 </div>
                 <div class="project-item col-10 col-md-12">
                     <div class="row">
                         <div class="project-item-description col-12 col-md-11">
-                            <h3>Calculator</h3>
-                            <p>A basic calculator app. Windows Form Application.</p>
+                            <h3>Hopper Bug DB</h3>
+                            <p>A Jira-style bug database built with ASP.NET MVC, SQL and Entity Framework.</p>
                         </div>
                         <div class="project-icon col-1 d-flex align-items-center">
-                            <a href="https://github.com/michaelking178/calculatorApp" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
+                            <a href="https://github.com/michaelking178/HopperBugDB" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
+                        </div>
+                        <div class="project-image">
+                            <a href="img/Hopper01.png" target="_blank"><img src="img/Hopper01.png"></a>
+                            <a href="img/Hopper02.png" target="_blank"><img src="img/Hopper02.png"></a>
                         </div>
                     </div>
                 </div>
                 <div class="project-item col-10 col-md-12">
                     <div class="row">
                         <div class="project-item-description col-12 col-md-11">
-                            <h3>Elder Scrolls Name Generator</h3>
-                            <p>Randomly generates a first and last name based on the race and gender selected. Inspired by the Elder Scrolls video games.</p>
+                            <h3>Colorscape</h3>
+                            <p>A 2D color-based puzzler. Selected as a Simmer.io Editor's Choice title for February 2020. Play it online <a href="https://simmer.io/@michaelking178/colorscape" target="_blank">here</a>!</p>
                         </div>
                         <div class="project-icon col-1 d-flex align-items-center">
-                            <i class="fab fa-github" title="GitHub"></i>
+                            <a href="https://github.com/michaelking178/Unity_2D_Puzzler" target="_blank"><i class="fab fa-github" title="GitHub"></i></a>
                         </div>
-                    </div>
-                </div>
-                <div class="project-item col-10 col-md-12">
-                    <div class="row">
-                        <div class="project-item-description col-12 col-md-11">
-                            <h3>Elder Scrolls Name Generator</h3>
-                            <p>Randomly generates a first and last name based on the race and gender selected. Inspired by the Elder Scrolls video games.</p>
-                        </div>
-                        <div class="project-icon col-1 d-flex align-items-center">
-                            <i class="fab fa-github" title="GitHub"></i>
+                        <div class="project-image">
+                            <a href="img/Colorscape01.png" target="_blank"><img src="img/Colorscape01.png"></a>
+                            <a href="img/Colorscape02.png" target="_blank"><img src="img/Colorscape02.png"></a>
                         </div>
                     </div>
                 </div>
@@ -152,23 +178,20 @@
                 </div>
                 <div id="about-text" class="col-12 col-md-9">
                     <p id="about-intro">
-                        Hi, I'm Michael. I love writing architecturally sound and robust software using the latest standards and practices. Object-oriented programming, design patterns and agile development are some of
-                        the concepts that sit at the top of my toolbox.
+                        Hi, I'm Michael. I love writing software.
                     </p>
                     <p>
                         I've had a passion for computers and software since I was 7 years old when I discovered the MS-DOS Prompt in my family's Pentium 486 PC running Windows 95. Shortly thereafter I learned
                         that I could even swap parts of the <em>physical computer</em> to make it run better! RAM upgrades, GPUs and 3D accelerators flowed like honey.
                     </p>
                     <p>
-                        I wrote my first line of code in a grade 10 computer class, using Visual Basic to create my first application: a "Hello World" console line (of course). I would later create hang-man games and
-                        calculators, and would discover during that class a passion for writing software.
+                        I wrote my first line of code in a grade 10 computer class, using Visual Basic to create my first application: a "Hello World" console line (of course). I would later create hang-man games and calculators, and would discover during that class a passion for writing software.
                     </p>
                     <p>
-                        After high school I completed a bachelor of arts degree with a major in music. Although coding and conducting may seem like unrelated fields, I found the mathematics of music theory to be
-                        fascinating. I spent my days in music classes while learning C# and creating games in the Unity3D game engine on evenings and weekends.
+                        After high school I completed a bachelor of arts degree with a major in music. Although coding and conducting may seem like unrelated fields, I found the mathematics and patterns of music theory to be fascinating. I spent my days in music classes while learning C# and creating games in the Unity3D game engine on evenings and weekends.
                     </p>
                     <p>
-                        I have since moved from my home on the Canadian prairies to Montreal and expanded my software development experience from Unity games to WPF and UWP applications using the .NET Framework.
+                        I have since moved from my home on the Canadian prairies to Montreal and expanded my software development experience from Unity games to Windows and web applications using .NET or JavaScript, as well as C++ in the Unreal Engine.
                     </p>
                 </div>
             </div>

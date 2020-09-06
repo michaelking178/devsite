@@ -62,22 +62,25 @@ p {
   top: 0;
   right: 0;
   overflow-x: hidden;
-  background-image: url("../img/banner_sm.jpg");
+  background: rgb(9,9,121);
+  background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(149,149,207,1) 75%, rgba(255,255,255,1) 100%);
   background-size: cover;
   background-position: right 0px top 0px;
+}
+
+#splash-text {
+  width: 100%;
+  display: block;
+  text-align: center;
 }
 
 .splash-content {
   justify-content: center;
 }
 
-#splash-text {
-  width: 100%;
-  margin-left: -25%;
-}
-
 #splash-text h1,
-#splash-text h2 {
+#splash-text h2,
+#splash-text p {
   color: #fff;
 }
 
@@ -85,12 +88,30 @@ p {
   margin-top: 20%;
 }
 
+#splash-paragraph {
+  margin-top: 10px;
+  width: 60%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#splash-image {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#splash-image img {
+  width: 50%;
+  border-radius: 250px;
+}
+
 #splash-arrow {
   display: none;
 }
 
 #splash-arrow i {
-  color: #fff;
+  color: rgb(0, 26, 255);
   font-size: 3rem;
   opacity: 0.5;
   margin-top: 100%;
@@ -124,7 +145,7 @@ p {
 ...........................*/
 #projects,
 #contact {
-  background-color: #eee;
+  background-color: rgb(232, 235, 255);
 }
 
 .project-item {
@@ -150,6 +171,11 @@ p {
   color: #0077ff;
   vertical-align: middle;
   transform: scale(1.1);
+}
+
+.project-image img {
+  margin-left: 2%;
+  width: 25%;
 }
 
 /*---------------------------
@@ -208,7 +234,6 @@ p {
   #about-text {
     margin-top: 0;
   }
-
   #about-content img {
     margin-top: 8px;
   }
@@ -217,7 +242,19 @@ p {
 @media only screen and (min-width: 768px) {
   #splash {
     min-height: 50%;
-    background-image: url("../img/banner_md.jpg");
+  }
+  #splash-text {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #splash-image {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #splash-image img {
+    margin-top: 15%;
   }
   h1 {
     font-size: 3rem;
