@@ -54,6 +54,16 @@ p {
 }
 
 /*---------------------------
+            NAVBAR
+...........................*/
+.navbar-custom {
+  color: #ccc;
+  font-size: 0.8rem;
+}
+
+
+
+/*---------------------------
         SPLASH PAGE
 ...........................*/
 #splash {
@@ -89,7 +99,7 @@ p {
 }
 
 #splash-paragraph {
-  margin-top: 10px;
+  margin-top: 25px;
   width: 60%;
   text-align: center;
   vertical-align: middle;
@@ -171,6 +181,11 @@ p {
   color: #0077ff;
   vertical-align: middle;
   transform: scale(1.1);
+}
+
+.project-image {
+  overflow: hidden;
+  max-height: 150px;
 }
 
 .project-image img {
