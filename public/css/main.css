@@ -90,8 +90,19 @@ p {
 
 #splash-text h1,
 #splash-text h2,
-#splash-text p {
+#splash-text p,
+#splash-text a {
   color: #fff;
+}
+
+#splash-text a {
+  text-decoration: underline;
+  -webkit-transition: color 0.25s; /* For Safari 3.1 to 6.0 */
+  transition: color 0.25s;
+}
+
+#splash-text a:hover {
+  color: #ddd;
 }
 
 #splash-title {
