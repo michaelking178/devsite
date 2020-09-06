@@ -221,6 +221,11 @@ p {
   margin-top: 20px;
 }
 
+#cv-iframe {
+  width: 450px;
+  height: 860px;
+}
+
 /*---------------------------
         FOOTER PAGE
 ...........................*/
@@ -331,11 +336,19 @@ p {
     bottom: 50px;
     width: 100%;
   }
+  #cv-iframe {
+    width: 700px;
+    height: 930px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   #splash {
     min-height: 100%;
+  }
+  #cv-iframe {
+    width: 900px;
+    height: 1150px;
   }
 }
 
