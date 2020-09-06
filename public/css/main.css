@@ -222,7 +222,8 @@ p {
 }
 
 #cv-iframe {
-  width: 450px;
+  border: 1px solid #aaa;
+  width: 380px;
   height: 860px;
 }
 
